@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+ 
+ .container{
+    border: 3px  solid black;
+    padding: 5px;
+    height: 1000px;
+
+
+ } 
+
+.Circle{
+    margin-top: 10px;
+    margin-left: 30px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: #c4c9cd; 
+    border: 2px solid black; 
+    border-radius: 50%;
+    margin-left: 6%;
+  }
+
+  .link-icon{
+    transform: rotate(43deg);
+  }
+  
+  .location{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 60px;
+  }
+
+  .link-github{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 30px;
+    padding-left: -20px;
+    margin-left: 6%;
+  }
+
+  .repo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    gap: 20px;
+  }
+  
+  .twitter{
+   padding-left: 200px;
+  }
+  .name,.para{
+    padding-left: 200px;
+  }
+
+
+  #repo {
+    flex: 1 0 calc(40% - 20px); 
+    margin-top: 15px;
+    width: 100px ;
+    height: 140px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding: 15px;
+    border: 2px solid #121111;
+    box-sizing: border-box;
+    max-width: 40%;
+    margin-left: 5%;
+  }
+
+
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-sizing: border-box;
+    height: 10px;
+  }
+  
+
+  .jss, .ang, .angj, .angj2 {
+    flex: 1; 
+    padding: 15px; 
+    margin-top: 10px;
+    background-color: rgb(84, 106, 218);
+    border: 1px solid black;
+    font-weight: bold;
+    box-sizing: border-box;
+    color: azure;
+  
+    height: 20px;
+    width: 50px;
+  }
+
+
+  .pagination{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+    border: 1px solid black;
+    padding: auto;
+    
+    
+
+    /* height: min-content; */
+    
+
+  }
+  
