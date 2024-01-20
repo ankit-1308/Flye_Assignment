@@ -15,7 +15,7 @@
 
 .Circle{
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 38px;
     float: left;
     width: 100px;
     height: 100px;
@@ -32,7 +32,8 @@
   .location{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 60px;
+    margin-top: 10px;
+    padding-left: 7.5%;
   }
 
   .link-github{
@@ -56,10 +57,16 @@
   }
   
   .twitter{
-   padding-left: 200px;
+   padding-left: 20%;
   }
-  .name,.para{
-    padding-left: 200px;
+
+  .name{
+    
+    padding-left: 20%;
+
+  }
+  .para{
+    padding-left: 20%;
   }
 
 
@@ -75,6 +82,11 @@
     box-sizing: border-box;
     max-width: 40%;
     margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #repo h2{
+    color: #7458ba;
   }
 
 
@@ -82,8 +94,9 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    box-sizing: border-box;
-    height: 10px;
+    
+    margin-right:30%;
+    
   }
   
 
@@ -91,30 +104,74 @@
     flex: 1; 
     padding: 15px; 
     margin-top: 10px;
-    background-color: rgb(84, 106, 218);
+    background-color: #674bae;
     border: 1px solid black;
     font-weight: bold;
     box-sizing: border-box;
+
     color: azure;
   
-    height: 20px;
+    height: 50px;
     width: 50px;
   }
 
 
-  .pagination{
+	.pagination {
+    display: inline-block;
+  }
+
+  .center {
+    margin-top: 20px;
+    text-align: center;
+    color: #765abb;
+  }
+
+  #a-tag{
+    color: #7c65b4;
+  }
+
+  .pagination a {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid rgb(91, 88, 88);
+  }
+
+  .pagination a.active {
+    background-color:#533e89;
+  }
+
+
+  .arrow-section{
+    margin-top: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
-    margin-top: 15px;
-    border: 1px solid black;
-    padding: auto;
+    gap: 300px;
     
-    
-
-    /* height: min-content; */
-    
-
   }
+
+  .left-arrow{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 110px;
+    
+  }
+
+  .right-arrow{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 110px;
+    
+    
+  }
+
   
+
